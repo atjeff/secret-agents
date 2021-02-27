@@ -1,0 +1,19 @@
+{
+    "name": "secret-agents",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "NODE_ENV=development npm run build",
+        "format": "prettier --ignore-path='.gitignore' --list-different --write './'"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^2.0.0",
+        "prettier": "^2.0.5",
+        "service-worker-mock": "^2.0.5",
+        "ts-loader": "^7.0.5",
+        "typescript": "^3.9.5",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    }
+}
